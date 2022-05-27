@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#/home/natalie/PycharmProjects/project_8/factory_and_builder.py</OriginalElement>
+  <nodes>
+    <node x="1616.5" y="332.0">factory_and_builder.PizzaDoughType</node>
+    <node x="2420.0" y="83.0">abc.ABCMeta</node>
+    <node x="95.91374269005837" y="168.0">factory_and_builder.Director</node>
+    <node x="1197.5" y="332.0">factory_and_builder.MargaritaPizzaBuilder</node>
+    <node x="3129.5" y="332.0">factory_and_builder.PizzaType</node>
+    <node x="1988.5" y="332.0">factory_and_builder.PizzaSauceType</node>
+    <node x="806.4999999999999" y="332.0">factory_and_builder.SalamiPizzaBuilder</node>
+    <node x="2471.5" y="251.0">enum.Enum</node>
+    <node x="2745.5" y="332.0">factory_and_builder.PizzaDoughDepth</node>
+    <node x="395.91374269005837" y="168.0">factory_and_builder.Pizza</node>
+    <node x="2449.5" y="168.0">enum.EnumMeta</node>
+    <node x="693.0" y="251.0">factory_and_builder.PizzaStracatella</node>
+    <node x="1142.0" y="168.0">abc.ABC</node>
+    <node x="2353.5" y="332.0">factory_and_builder.PizzaTopLevelType</node>
+    <node x="335.0" y="251.0">factory_and_builder.PizzaMargarita</node>
+    <node x="1059.0" y="251.0">factory_and_builder.Builder</node>
+    <node x="0.0" y="251.0">factory_and_builder.PizzaMexico</node>
+    <node x="1357.1666666666665" y="0.0">typing.Hashable</node>
+    <node x="792.1249999999999" y="83.0">object</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="abc.ABC" target="object" relationship="REALIZATION">
+      <point x="-26.25" y="-15.5" />
+      <point x="1168.25" y="146.0" />
+      <point x="836.1249999999999" y="146.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="object" target="typing.Hashable" relationship="INTERFACE">
+      <point x="0.0" y="-15.5" />
+      <point x="836.1249999999999" y="57.0" />
+      <point x="1443.1666666666665" y="57.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="factory_and_builder.PizzaDoughDepth" target="enum.Enum" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="2927.5" y="307.0" />
+      <point x="2539.5" y="307.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="factory_and_builder.PizzaMargarita" target="factory_and_builder.Pizza" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="504.0" y="225.0" />
+      <point x="522.9137426900584" y="225.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="factory_and_builder.Builder" target="abc.ABC" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="enum.EnumMeta" target="abc.ABCMeta" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="2539.5" y="146.0" />
+      <point x="2531.75" y="146.0" />
+      <point x="37.25" y="15.5" />
+    </edge>
+    <edge source="factory_and_builder.SalamiPizzaBuilder" target="factory_and_builder.Builder" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="991.9999999999999" y="307.0" />
+      <point x="1194.5" y="307.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="factory_and_builder.PizzaTopLevelType" target="enum.Enum" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="factory_and_builder.PizzaDoughType" target="enum.Enum" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="1792.5" y="307.0" />
+      <point x="2539.5" y="307.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="factory_and_builder.PizzaStracatella" target="factory_and_builder.Pizza" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="866.0" y="225.0" />
+      <point x="522.9137426900584" y="225.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="factory_and_builder.PizzaMexico" target="factory_and_builder.Pizza" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="157.5" y="225.0" />
+      <point x="522.9137426900584" y="225.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="enum.Enum" target="typing.Hashable" relationship="INTERFACE">
+      <point x="45.33333333333334" y="-15.5" />
+      <point x="2584.833333333333" y="225.0" />
+      <point x="2640.0" y="225.0" />
+      <point x="2640.0" y="57.0" />
+      <point x="1443.1666666666665" y="57.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="factory_and_builder.PizzaType" target="enum.Enum" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="3277.0" y="307.0" />
+      <point x="2539.5" y="307.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="enum.Enum" target="object" relationship="REALIZATION">
+      <point x="-45.33333333333334" y="-15.5" />
+      <point x="2494.1666666666665" y="225.0" />
+      <point x="2413.0672514619882" y="225.0" />
+      <point x="2413.0672514619882" y="146.0" />
+      <point x="836.1249999999999" y="146.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="factory_and_builder.Pizza" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="522.9137426900584" y="146.0" />
+      <point x="836.1249999999999" y="146.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="abc.ABC" target="abc.ABCMeta" relationship="INSTANCEOF">
+      <point x="26.25" y="-15.5" />
+      <point x="1220.75" y="136.0" />
+      <point x="2457.25" y="136.0" />
+      <point x="-37.25" y="15.5" />
+    </edge>
+    <edge source="enum.Enum" target="enum.EnumMeta" relationship="INSTANCEOF">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="factory_and_builder.MargaritaPizzaBuilder" target="factory_and_builder.Builder" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="1397.0" y="307.0" />
+      <point x="1194.5" y="307.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="factory_and_builder.Director" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="235.91374269005837" y="146.0" />
+      <point x="836.1249999999999" y="146.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="factory_and_builder.PizzaSauceType" target="enum.Enum" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="2161.0" y="307.0" />
+      <point x="2539.5" y="307.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.31901306240928884" showDependencies="false" x="1712.5" y="181.5" />
+  <SelectedNodes />
+  <Categories />
+</Diagram>
+

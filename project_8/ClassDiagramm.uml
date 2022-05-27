@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#/home/natalie/Рабочий стол/ООП в Python/project_8/main.py</OriginalElement>
+  <nodes>
+    <node x="324.25" y="81.0">abc.ABCMeta</node>
+    <node x="277.0" y="162.0">abc.ABC</node>
+    <node x="48.25" y="243.0">main.Transport</node>
+    <node x="0.0" y="324.0">main.Ship</node>
+    <node x="138.0" y="324.0">main.Truck</node>
+    <node x="415.5" y="243.0">main.Logistics</node>
+    <node x="507.0" y="324.0">main.SeaLogistics</node>
+    <node x="174.25" y="0.0">typing.Hashable</node>
+    <node x="287.0" y="324.0">main.RoadLogistics</node>
+    <node x="216.25" y="81.0">object</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="abc.ABC" target="abc.ABCMeta" relationship="INSTANCEOF">
+      <point x="26.25" y="-15.5" />
+      <point x="355.75" y="137.0" />
+      <point x="398.75" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="object" target="typing.Hashable" relationship="INTERFACE">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="abc.ABC" target="object" relationship="REALIZATION">
+      <point x="-26.25" y="-15.5" />
+      <point x="303.25" y="137.0" />
+      <point x="260.25" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="main.RoadLogistics" target="main.Logistics" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="387.0" y="299.0" />
+      <point x="493.5" y="299.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="main.Logistics" target="abc.ABC" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="493.5" y="218.0" />
+      <point x="329.5" y="218.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="main.Ship" target="main.Transport" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="59.0" y="299.0" />
+      <point x="130.75" y="299.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="main.SeaLogistics" target="main.Logistics" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="600.0" y="299.0" />
+      <point x="493.5" y="299.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="main.Transport" target="abc.ABC" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="130.75" y="218.0" />
+      <point x="329.5" y="218.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="main.Truck" target="main.Transport" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="202.5" y="299.0" />
+      <point x="130.75" y="299.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="346.5" y="177.5" />
+  <SelectedNodes />
+  <Categories />
+</Diagram>
+
